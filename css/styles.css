@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+.hamburger, .menu-toggle {
+    display: none;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color:#FEF9F1;
+}
+
+.logo {
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 60px; /* Gap between navigation menus */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #56A434; /* hovering changes menu option color*/
+}
+
+
+.proposal-button {
+    background-color: #56A434;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Landing page styles */
+
+.landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:#FEF9F1;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+.text-content {
+    text-align: justify; /* Justifies the text */
+    font-size: 1.35em; /* Increases the text size */
+    margin-right: 50px; /* Adds space to the right of the text content */
+    padding-top: 118px;
+}
+
+span {
+    color: #56A434;
+}
+
+.text-content > div {
+    margin-bottom: 1em; /* Adds gap between lines */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button */
+    margin-top: 50px; /* Adds space above the button */
+}
+
+.green-button {
+    background-color: #56A434; 
+    border-radius: 5px; /* Rounds the button edges */
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 200px;
+}
+
+.image-content {
+    align-self: flex-end; /* Aligns the image below the navigation menu */
+}
+
+.image-content > img {
+    height: 800px;
+    width: 650px;
+}
+
+/*Features*/
+
+#features {
+    padding: 30px;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: calc((100% - 60px) / 3);
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.writeup {
+    text-align: justify; /* Justifies the text */
+}
+
+.box img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.box h3 {
+    margin-top: 20px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box > img {
+    height: 50px;
+    width: 50px;
+}
+
+#box1 {
+    background-color: #FEF9F1;
+}
+
+
+#features {
+    width: 83%;
+    margin: 0 auto;
+}
+
+
+/*Why Leafy*/
+
+.image-container > img {
+    width: 30px;
+    height: 450px;
+}
+
+.green-box {
+    background-color: rgba(123, 199, 90, 0.1);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    outline: 5px solid #7BC75A;
+}
+
+.image-container {
+    width: 30%;
+    padding-left: 50px;
+}
+
+.image-container img {
+    width: 70%;
+    height: 300px;
+}
+
+.text-container {
+    width: 70%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.subtopic {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article {
+    font-size: 16px;
+
+}
+
+/*Video*/
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 25px;
+}
+
+video {
+    width: 83%; 
+    height: auto; /* maintain aspect ratio */
+}
+
+
+/*Members*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 88%;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: row;
+    width: calc(30% - 30px); 
+    margin: 15px; 
+    background-color: #C4F3AF;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid #56A434;
+    border-radius: 10px;
+}
+
+.team-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.team-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-box h3,
+.team-box p {
+    margin: 0;
+    padding: 0;
+}
+
+/*LinkedIn Logo*/
+.linkedin-logo > img {
+    width: 15px;
+    flex: 1;
+}
+
+.linkedin-container {
+    display: flex; /* This makes the items within the linkedin-container appear in a line */
+    justify-content: space-between;
+}
+
+.linkedin-link {
+    color: inherit; 
+    text-decoration: none; /* to remove the underline */
+    flex: 1;
+    margin-left: 0px; /* Add some space between the image and the text */
+    width: 500px;
+}
+
+
+/* Contact form styles */
+
+.thisForm {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.submit-button {
+    width: 150px;
+    height: 30px;
+    background-color: #56A434;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 225px;
+}
+
+#contact-form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#contact-form > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #52E100;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-line {
+    border: 1px solid;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.footer-statement {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/*Mobile App Screen*/
+
+@media screen and (max-width: 768px) {
+    /* Header styles */
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        height: 50px;
+        margin-right: 300px;
+    }
+
+    /* Navbar styles */
+    .menu-toggle {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 400px;
+        margin-top: -50px;
+    }
+
+    /* By default, hide the menu */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        height: 120px;
+        background-color: #FEF9F1;
+        padding-top: 0px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    
+    .menu-toggle:checked + .hamburger + nav ul {
+        display: flex;
+    }
+
+    /* Landing page styles */
+    .landing-page {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .text-content {
+        font-size: 1em; /* Reduce font size on small screens */
+        margin-right: 0;
+    }
+
+    .image-content > img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Features section */
+    .row {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Why Leafy section */
+    .green-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container,
+    .text-container {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    /* Team members section */
+    .container {
+        flex-direction: column;
+    }
+
+    .team-box {
+        width: 100%; /* Boxes take up the full width on small screens */
+        margin-bottom: 20px;
+    }
+
+    .submit-button {
+        width: 150px;
+        height: 30px;
+        background-color: #56A434;
+        color: white; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 150px;
+    }
+
+    /* Video section */
+    video {
+        width: 100%;
+    }
+}
